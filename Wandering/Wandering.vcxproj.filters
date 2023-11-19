@@ -19,6 +19,7 @@
     <ClInclude Include="src\Wandering\Log.h">
       <Filter>Wandering</Filter>
     </ClInclude>
+    <ClInclude Include="src\Wandering\Events\Event.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Wandering\Application.cpp">

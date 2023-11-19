@@ -150,6 +150,7 @@
     <ClInclude Include="src\Wandering\Application.h" />
     <ClInclude Include="src\Wandering\Core.h" />
     <ClInclude Include="src\Wandering\EntryPoint.h" />
+    <ClInclude Include="src\Wandering\Events\Event.h" />
     <ClInclude Include="src\Wandering\Log.h" />
   </ItemGroup>
   <ItemGroup>

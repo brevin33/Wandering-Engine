@@ -22,15 +22,15 @@ namespace Wandering {
 
 
 // Core log macros
-#define WD_CORE_TRACE(...)    ::Hazel::Log::GetCoreLogger()->trace(__VA_ARGS__)
-#define WD_CORE_INFO(...)     ::Hazel::Log::GetCoreLogger()->info(__VA_ARGS__)
-#define WD_CORE_WARN(...)     ::Hazel::Log::GetCoreLogger()->warn(__VA_ARGS__)
-#define WD_CORE_ERROR(...)    ::Hazel::Log::GetCoreLogger()->error(__VA_ARGS__)
-#define WD_CORE_FATAL(...)    ::Hazel::Log::GetCoreLogger()->fatal(__VA_ARGS__)
+#define WD_CORE_TRACE(...)    ::Wandering::Log::GetCoreLogger()->trace(__VA_ARGS__)
+#define WD_CORE_INFO(...)     ::Wandering::Log::GetCoreLogger()->info(__VA_ARGS__)
+#define WD_CORE_WARN(...)     ::Wandering::Log::GetCoreLogger()->warn(__VA_ARGS__)
+#define WD_CORE_ERROR(...)    ::Wandering::Log::GetCoreLogger()->error(__VA_ARGS__)
+#define WD_CORE_FATAL(...)    ::Wandering::Log::GetCoreLogger()->fatal(__VA_ARGS__)
 
 // Client log macros
-#define WD_TRACE(...)	      ::Hazel::Log::GetClientLogger()->trace(__VA_ARGS__)
-#define WD_INFO(...)	      ::Hazel::Log::GetClientLogger()->info(__VA_ARGS__)
-#define WD_WARN(...)	      ::Hazel::Log::GetClientLogger()->warn(__VA_ARGS__)
-#define WD_ERROR(...)	      ::Hazel::Log::GetClientLogger()->error(__VA_ARGS__)
-#define WD_FATAL(...)	      ::Hazel::Log::GetClientLogger()->fatal(__VA_ARGS__)
+#define WD_TRACE(...)	      ::Wandering::Log::GetClientLogger()->trace(__VA_ARGS__)
+#define WD_INFO(...)	      ::Wandering::Log::GetClientLogger()->info(__VA_ARGS__)
+#define WD_WARN(...)	      ::Wandering::Log::GetClientLogger()->warn(__VA_ARGS__)
+#define WD_ERROR(...)	      ::Wandering::Log::GetClientLogger()->error(__VA_ARGS__)
+#define WD_FATAL(...)	      ::Wandering::Log::GetClientLogger()->fatal(__VA_ARGS__)
