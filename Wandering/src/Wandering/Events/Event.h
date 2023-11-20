@@ -1,10 +1,5 @@
 #pragma once
-#include <vector>
-#include <unordered_map>
-#include <string>
-#include <iostream>
-#include <memory>
-#include <queue>
+#include "../wdpch.h"
 namespace Wandering {
 
 	template <typename T>

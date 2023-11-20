@@ -18,6 +18,9 @@ project "Wandering"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "wdpch.h"
+	pchsource "Wandering/src/Wandering/wdpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

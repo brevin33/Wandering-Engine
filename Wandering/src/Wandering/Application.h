@@ -1,4 +1,5 @@
 #pragma once
+#include "wdpch.h"
 #include "Core.h"
 namespace Wandering {
 

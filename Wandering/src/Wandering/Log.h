@@ -1,7 +1,6 @@
 #pragma once
+#include "wdpch.h"
 #include "Core.h"
-#include <spdlog/spdlog.h>
-#include <memory>
 
 namespace Wandering {
 

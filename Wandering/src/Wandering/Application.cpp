@@ -1,3 +1,4 @@
+#include "wdpch.h"
 #include "Application.h"
 
 namespace Wandering {

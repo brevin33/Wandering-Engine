@@ -4,6 +4,9 @@
     <Filter Include="Wandering">
       <UniqueIdentifier>{64908611-D0FA-3A88-1939-EC2D85E218DD}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Wandering\Events">
+      <UniqueIdentifier>{C863B17B-B45C-D0CD-DD8E-B552C9E6AFD9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Wandering.h" />
@@ -16,16 +19,24 @@
     <ClInclude Include="src\Wandering\EntryPoint.h">
       <Filter>Wandering</Filter>
     </ClInclude>
+    <ClInclude Include="src\Wandering\Events\Event.h">
+      <Filter>Wandering\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Wandering\Log.h">
       <Filter>Wandering</Filter>
     </ClInclude>
-    <ClInclude Include="src\Wandering\Events\Event.h" />
+    <ClInclude Include="src\Wandering\wdpch.h">
+      <Filter>Wandering</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Wandering\Application.cpp">
       <Filter>Wandering</Filter>
     </ClCompile>
     <ClCompile Include="src\Wandering\Log.cpp">
+      <Filter>Wandering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wandering\wdpch.cpp">
       <Filter>Wandering</Filter>
     </ClCompile>
   </ItemGroup>
