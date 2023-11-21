@@ -80,7 +80,7 @@
       <PrecompiledHeaderFile>wdpch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WD_PLATFORM_WINDOWS;WD_BUILD_DLL;WD_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>vendor\spdlog\include;src\Wandering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -102,7 +102,7 @@
       <PrecompiledHeaderFile>wdpch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WD_PLATFORM_WINDOWS;WD_BUILD_DLL;WD_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>vendor\spdlog\include;src\Wandering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -128,7 +128,7 @@
       <PrecompiledHeaderFile>wdpch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WD_PLATFORM_WINDOWS;WD_BUILD_DLL;WD_DIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>vendor\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>vendor\spdlog\include;src\Wandering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -153,13 +153,20 @@
     <ClInclude Include="src\Wandering\Application.h" />
     <ClInclude Include="src\Wandering\Core.h" />
     <ClInclude Include="src\Wandering\EntryPoint.h" />
+    <ClInclude Include="src\Wandering\Events\EngineEvents.h" />
     <ClInclude Include="src\Wandering\Events\Event.h" />
     <ClInclude Include="src\Wandering\Log.h" />
+    <ClInclude Include="src\Wandering\Renderer\Mesh.h" />
+    <ClInclude Include="src\Wandering\Renderer\Renderer.h" />
+    <ClInclude Include="src\Wandering\Renderer\VulkanRenderer\VulkanRenderer.h" />
+    <ClInclude Include="src\Wandering\Window\Window.h" />
+    <ClInclude Include="src\Wandering\Window\wdGLFWWindow.h" />
     <ClInclude Include="src\Wandering\wdpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Wandering\Application.cpp" />
     <ClCompile Include="src\Wandering\Log.cpp" />
+    <ClCompile Include="src\Wandering\Window\wdGLFWWindow.cpp" />
     <ClCompile Include="src\Wandering\wdpch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>

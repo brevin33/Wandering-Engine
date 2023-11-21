@@ -4,7 +4,6 @@ class App : public Wandering::Application {
 
 public:
 	App() {
-
 	}
 
 	~App() {

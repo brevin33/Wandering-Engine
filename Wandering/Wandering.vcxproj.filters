@@ -7,6 +7,15 @@
     <Filter Include="Wandering\Events">
       <UniqueIdentifier>{C863B17B-B45C-D0CD-DD8E-B552C9E6AFD9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Wandering\Renderer">
+      <UniqueIdentifier>{8A849424-7668-557A-DFC8-4FCDCBCB3FFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wandering\Renderer\VulkanRenderer">
+      <UniqueIdentifier>{4181F9BB-ADEF-4E3B-F6D8-093B628644D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wandering\Window">
+      <UniqueIdentifier>{CBC4C7A4-B7BD-E6F6-E0EF-CB7BCC47C602}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Wandering.h" />
@@ -19,11 +28,29 @@
     <ClInclude Include="src\Wandering\EntryPoint.h">
       <Filter>Wandering</Filter>
     </ClInclude>
+    <ClInclude Include="src\Wandering\Events\EngineEvents.h">
+      <Filter>Wandering\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Wandering\Events\Event.h">
       <Filter>Wandering\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Wandering\Log.h">
       <Filter>Wandering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wandering\Renderer\Mesh.h">
+      <Filter>Wandering\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wandering\Renderer\Renderer.h">
+      <Filter>Wandering\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wandering\Renderer\VulkanRenderer\VulkanRenderer.h">
+      <Filter>Wandering\Renderer\VulkanRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wandering\Window\Window.h">
+      <Filter>Wandering\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wandering\Window\wdGLFWWindow.h">
+      <Filter>Wandering\Window</Filter>
     </ClInclude>
     <ClInclude Include="src\Wandering\wdpch.h">
       <Filter>Wandering</Filter>
@@ -35,6 +62,9 @@
     </ClCompile>
     <ClCompile Include="src\Wandering\Log.cpp">
       <Filter>Wandering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wandering\Window\wdGLFWWindow.cpp">
+      <Filter>Wandering\Window</Filter>
     </ClCompile>
     <ClCompile Include="src\Wandering\wdpch.cpp">
       <Filter>Wandering</Filter>

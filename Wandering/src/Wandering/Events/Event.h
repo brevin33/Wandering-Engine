@@ -3,10 +3,8 @@
 namespace Wandering {
 
 	template <typename T>
-	class EventHandler {
+	class  EventHandler {
 	public:
-		// id wants to index this
-
 		static std::vector<void(*)(T)> eventListeners;
 		static std::queue<T> eventQueue;
 

@@ -23,10 +23,7 @@ int main() {
 	void(*e)(testEvent) = testEventListener;
 	Wandering::EventHandler<testEvent>::addListener(e);
 	testEvent t;
-	Wandering::EventHandler<testEvent>::delayedTrigger(t);
-	Wandering::EventHandler<testEvent>::delayedTrigger(t);
-
-	Wandering::EventHandler<testEvent>::processDelayedTriggers();
+	Wandering::EventHandler<testEvent>::trigger(t);
 
 	app->Run();
 	delete app;

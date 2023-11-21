@@ -29,7 +29,8 @@ project "Wandering"
 
 	includedirs
 	{
-		"%{prj.name}/vendor/spdlog/include"
+		"%{prj.name}/vendor/spdlog/include",
+		"%{prj.name}/src/Wandering"
 	}
 
 	filter "system:windows"
